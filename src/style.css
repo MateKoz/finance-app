@@ -251,5 +251,12 @@ h2.title {
 
 .add-transaction-panel button:hover {
     background-color: rgb(25, 27, 51);
+}
 
+.transaction-error,
+.category-error,
+.amount-error {
+    color: tomato;
+    margin-top: 10px;
+    visibility: hidden;
 }
